@@ -1,0 +1,13 @@
+feature,importance
+Dept,0.5738202
+Store_Max_Sales,0.13458294
+Store_Avg_Sales,0.120880984
+IsYearEnd,0.053523727
+Store,0.04273226
+WeekOfYear,0.019443009
+IsBackToSchool,0.0170465
+Week,0.016403796
+Year,0.010657725
+Month,0.0083451
+IsHoliday,0.0025637504
+DayOfWeek,0.0
