@@ -46,7 +46,7 @@ Designed for scalability and adaptability to other retail datasets.
 
 Entire pipeline runs inside a Jupyter Notebook (sales_forecasting.ipynb) for clarity and accessibility.
 
-Lightweight environment ensures compatibility with Windows, macOS, and Linux systems.
+
 
 ## Best Model
 - **XGBoost**
@@ -87,7 +87,6 @@ These files provide transparency and reproducibility for model performance and d
 
 sales_forecasting.ipynb
 The main Jupyter Notebook that documents the entire end-to-end machine learning workflow — from data exploration and preprocessing to model training (Random Forest, XGBoost), evaluation, and model monitoring using Evidently AI.
-This notebook serves as the central reference for the project’s technical implementation.
 
 ###  Next Steps (optional)
 - Automate report generation (weekly or monthly)
