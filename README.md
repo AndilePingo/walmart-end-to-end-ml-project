@@ -3,18 +3,18 @@
 ### Project highlights
 This end-to-end machine learning project demonstrates a complete real-world retail sales forecasting pipeline — from raw data to production-level monitoring. Below are the key highlights:
 
-  1. End-to-End Machine Learning Workflow
+#### 1. End-to-End Machine Learning Workflow
 
    Covers the entire ML lifecycle: data preprocessing, feature engineering, model training, evaluation, experiment tracking, and     monitoring.
 
 Designed for scalability and adaptability to other retail datasets.
 
-  2. Data Preparation and Feature Engineering
+ #### 2. Data Preparation and Feature Engineering
 
    Combines multiple Walmart datasets (train.csv, features.csv, stores.csv, and test.csv) into a clean and structured format.
 
    Implements advanced feature engineering: holiday flags, year-end indicators, store-level averages, and weekly trends to enhance model   performance.
-  3. Model Development and Evaluation
+ #### 3. Model Development and Evaluation
 
    Trains multiple models — Linear Regression, Random Forest, and XGBoost — to compare predictive performance.
 
@@ -22,13 +22,13 @@ Designed for scalability and adaptability to other retail datasets.
 
    Provides data-driven insights into which algorithms best capture store-level sales patterns.
 
-  4. Experiment Tracking with MLflow
+ ####  4. Experiment Tracking with MLflow
 
    Tracks all model parameters, metrics, and artifacts (e.g., feature importances, performance plots) using MLflow.
 
    Enables easy comparison of different model versions and experiments for reproducibility.
 
-  5. Model Monitoring with Evidently AI
+  #### 5. Model Monitoring with Evidently AI
 
    Implements data drift detection and model performance monitoring using the latest Evidently AI Report API.
 
@@ -36,13 +36,13 @@ Designed for scalability and adaptability to other retail datasets.
 
    Ensures model stability and early detection of input data shifts across time.
 
-  6. Organized Artifact Management
+  #### 6. Organized Artifact Management
 
    All generated reports, models, and evaluation results are stored under the artifacts/ directory for transparency and version control.
 
    Each run creates easily accessible logs for post-analysis and auditing.
 
-  7. Practical and Reproducible Setup
+  #### 7. Practical and Reproducible Setup
 
 Entire pipeline runs inside a Jupyter Notebook (sales_forecasting.ipynb) for clarity and accessibility.
 
@@ -64,7 +64,7 @@ Python, Pandas, Scikit-learn, XGBoost, MLflow, Evidently AI, Matplotlib
 
 
 ### 📂 Uploaded Project Files
-####1️ Data Files
+#### 1️ Data Files
 
 train.csv, test.csv, features.csv, stores.csv
 These files contain the raw and supplemental datasets used for training and evaluating the sales forecasting models.
